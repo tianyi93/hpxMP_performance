@@ -50,4 +50,6 @@ void bots_get_date(char *str);
 void bots_get_architecture(char *str);
 void bots_get_load_average(char *str);
 void bots_print_results(void);
+char str_time_program[15];
+char str_result[15];
 #endif

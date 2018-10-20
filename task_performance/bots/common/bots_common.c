@@ -119,8 +119,8 @@ void bots_print_results()
    char str_parameters[128];
    char str_model[128];
    char str_resources[128];
-   char str_result[15];
-   char str_time_program[15];
+   //char str_result[15];
+   //char str_time_program[15];
    char str_time_sequential[15];
    char str_speed_up[15];
    char str_number_of_tasks[15];

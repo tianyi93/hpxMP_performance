@@ -79,6 +79,9 @@ double bots_time_program = 0.0;
 double bots_time_sequential = 0.0;
 int    bots_number_of_tasks = 0;
 
+//file IO
+FILE *pFile;
+FILE *pFileerr;
 /*
  * Application dependent info
  */
@@ -291,7 +294,7 @@ bots_get_params_common(int argc, char **argv)
    strcpy(bots_execname, basename(argv[0]));
    bots_get_date(bots_exec_date);
    strcpy(bots_exec_message,"");
-   for (i=1; i<argc; i++) 
+   for (i=1; i<argc; i++)
    {
       if (argv[i][0] == '-')
       {
@@ -480,59 +483,80 @@ void bots_set_info ()
 /***********************************************************************
  * main: 
  **********************************************************************/
-int
-main(int argc, char* argv[])
-{
+int main(int argc, char *argv[]) {
 #ifndef BOTS_APP_SELF_TIMING
-   long bots_t_start;
-   long bots_t_end;
+  long bots_t_start;
+  long bots_t_end;
 #endif
-
-   bots_get_params(argc,argv);
-   BOTS_APP_INIT;
-   bots_set_info();
+  int count_orig_param = 0;
+  for(int i =0; i < argc; i++)
+      if(argv[i][0] != 'n')
+          count_orig_param++;
+  bots_get_params(count_orig_param, argv);
+  BOTS_APP_INIT;
+  bots_set_info();
 
 #ifdef KERNEL_SEQ_CALL
 #ifdef BOTS_APP_CHECK_USES_SEQ_RESULT
-   if (bots_sequential_flag || bots_check_flag)
+  if (bots_sequential_flag || bots_check_flag)
 #else
-   if (bots_sequential_flag)
+  if (bots_sequential_flag)
 #endif
-   {
-      bots_sequential_flag = 1;
-      KERNEL_SEQ_INIT;
+  {
+    bots_sequential_flag = 1;
+    KERNEL_SEQ_INIT;
 #ifdef BOTS_APP_SELF_TIMING
-      bots_time_sequential = KERNEL_SEQ_CALL;
+    bots_time_sequential = KERNEL_SEQ_CALL;
 #else
-      bots_t_start = bots_usecs();
-      KERNEL_SEQ_CALL;
-      bots_t_end = bots_usecs();
-      bots_time_sequential = ((double)(bots_t_end-bots_t_start))/1000000;
+    bots_t_start = bots_usecs();
+    KERNEL_SEQ_CALL;
+    bots_t_end = bots_usecs();
+    bots_time_sequential = ((double)(bots_t_end - bots_t_start)) / 1000000;
 #endif
-      KERNEL_SEQ_FINI;
-   }
+    KERNEL_SEQ_FINI;
+  }
 #endif
 
-   KERNEL_INIT;
+  KERNEL_INIT;
 #ifdef BOTS_APP_SELF_TIMING
-   bots_time_program = KERNEL_CALL;
+  bots_time_program = KERNEL_CALL;
 #else
-   bots_t_start = bots_usecs();
-   KERNEL_CALL;
-   bots_t_end = bots_usecs();
-   bots_time_program = ((double)(bots_t_end-bots_t_start))/1000000;
+  bots_t_start = bots_usecs();
+  KERNEL_CALL;
+  bots_t_end = bots_usecs();
+  bots_time_program = ((double)(bots_t_end - bots_t_start)) / 1000000;
 #endif
-   KERNEL_FINI;
+  KERNEL_FINI;
 
 #ifdef KERNEL_CHECK
-   if (bots_check_flag) {
-     bots_result = KERNEL_CHECK;
-   }
+  if (bots_check_flag) {
+    bots_result = KERNEL_CHECK;
+  }
 #endif
 
-   BOTS_APP_FINI;
+  BOTS_APP_FINI;
 
-   bots_print_results();
-   return (0);
+  bots_print_results();
+
+  const char* s = getenv("OMP_NUM_THREADS");
+  if(strcmp(str_result, "UNSUCCESSFUL") == 0) {
+      pFileerr = fopen("../result/error_info.txt","a");
+      fprintf(pFileerr, "name: %s,",argv[count_orig_param]);
+      fprintf(pFileerr, "num_threads: %s\n",(s!=NULL)? s : "getenv returned NULL");
+  }
+  if(argc==3){
+      if(strcmp(argv[count_orig_param],"no")==0){
+          pFile = fopen("../result/fft_result_openmp.txt", "a");
+          fprintf(pFile, "%s,",(s!=NULL)? s : "getenv returned NULL");
+          fprintf(pFile, "%s\n", str_time_program);
+          fclose(pFile);
+      }
+      if(strcmp(argv[count_orig_param],"nh")==0){
+          pFile = fopen("../result/fft_result_hpxmp.txt", "a");
+          fprintf(pFile, "%s,",(s!=NULL)? s : "getenv returned NULL");
+          fprintf(pFile, "%s\n", str_time_program);
+          fclose(pFile);
+      }
+  }
+  return (0);
 }
-

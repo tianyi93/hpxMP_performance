@@ -9,7 +9,142 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ebca0f9-a761-41c2-b34a-1ce4ea7be668" name="Default Changelist" comment="" />
+    <list default="true" id="6ebca0f9-a761-41c2-b34a-1ce4ea7be668" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/alignment.clang.for-omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/alignment.clang.for-omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/alignment.clang.for-omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/alignment.clang.for-omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/alignment.clang.serial" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/alignment.clang.serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/alignment.clang.single-omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/alignment.clang.single-omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/alignment.clang.single-omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/alignment.clang.single-omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/fft.clang.omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/fft.clang.omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/fft.clang.omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/fft.clang.omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/fft.clang.serial" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/fft.clang.serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks-if_clause" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks-if_clause" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks-if_clause-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks-if_clause-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks-manual" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks-manual" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks-manual-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks-manual-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.serial" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/fib.clang.serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks-if_clause" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks-if_clause" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks-if_clause-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks-if_clause-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks-manual" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks-manual" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks-manual-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks-manual-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.serial" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/floorplan.clang.serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks-if_clause" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks-if_clause" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks-if_clause-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks-if_clause-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks-manual" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks-manual" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks-manual-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks-manual-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.serial" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/health.clang.serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks-if_clause" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks-if_clause" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks-if_clause-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks-if_clause-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks-manual" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks-manual" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks-manual-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks-manual-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/knapsack.clang.omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks-if_clause" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks-if_clause" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks-if_clause-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks-if_clause-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks-manual" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks-manual" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks-manual-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks-manual-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.serial" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/nqueens.clang.serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/sort.clang.omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/sort.clang.omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/sort.clang.omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/sort.clang.omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/sort.clang.serial" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/sort.clang.serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/sparselu.clang.for-omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/sparselu.clang.for-omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/sparselu.clang.for-omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/sparselu.clang.for-omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/sparselu.clang.serial" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/sparselu.clang.serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/sparselu.clang.single-omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/sparselu.clang.single-omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/sparselu.clang.single-omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/sparselu.clang.single-omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks-if_clause" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks-if_clause" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks-if_clause-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks-if_clause-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks-manual" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks-manual" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks-manual-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks-manual-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.serial" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/strassen.clang.serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks-if_clause" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks-if_clause" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks-if_clause-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks-if_clause-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks-manual" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks-manual" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks-manual-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks-manual-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks-tied" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.omp-tasks-tied" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.serial" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/bin/uts.clang.serial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/common/bots_common.c" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/common/bots_common.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/common/bots_common.h" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/common/bots_common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/common/bots_common.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/common/bots_common.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/common/bots_main.c" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/common/bots_main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/alignment/alignment_for/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/alignment/alignment_for/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/alignment/alignment_for/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/alignment/alignment_for/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/alignment/alignment_single/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/alignment/alignment_single/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/alignment/alignment_single/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/alignment/alignment_single/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fft/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fft/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fft/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fft/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main-if-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main-if-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main-if.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main-if.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main-manual-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main-manual-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main-manual.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main-manual.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/fib/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main-if-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main-if-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main-if.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main-if.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main-manual-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main-manual-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main-manual.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main-manual.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/floorplan/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main-if-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main-if-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main-if.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main-if.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main-manual-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main-manual-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main-manual.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main-manual.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/health/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main-if-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main-if-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main-if.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main-if.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main-manual-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main-manual-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main-manual.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main-manual.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/knapsack/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main-if-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main-if-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main-if.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main-if.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main-manual-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main-manual-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main-manual.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main-manual.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/nqueens/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sort/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sort/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sort/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sort/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sparselu/sparselu_for/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sparselu/sparselu_for/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sparselu/sparselu_for/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sparselu/sparselu_for/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sparselu/sparselu_single/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sparselu/sparselu_single/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sparselu/sparselu_single/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/sparselu/sparselu_single/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main-if-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main-if-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main-if.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main-if.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main-manual-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main-manual-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main-manual.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main-manual.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/strassen/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main-if-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main-if-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main-if.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main-if.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main-manual-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main-manual-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main-manual.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main-manual.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main-tied.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main-tied.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/omp-tasks/uts/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/serial/alignment/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/serial/alignment/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/serial/fft/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/serial/fft/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/serial/fib/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/serial/fib/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/serial/floorplan/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/serial/floorplan/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/serial/health/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/serial/health/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/serial/nqueens/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/serial/nqueens/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/serial/sort/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/serial/sort/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/serial/sparselu/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/serial/sparselu/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/serial/strassen/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/serial/strassen/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/serial/uts/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/serial/uts/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_performance/bots/tz_run_bin.sh" beforeDir="false" afterPath="$PROJECT_DIR$/task_performance/bots/tz_run_bin.sh" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,29 +161,113 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="1" />
+          <entry key="c" value="4" />
+          <entry key="h" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="1" />
+          <entry key="ObjectiveC" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="769" />
+          <entry key="h" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="787" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task_performance/bots/omp-tasks/fft/fft.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-585" />
+            <state relative-caret-position="375">
+              <caret line="88" column="3" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_performance/bots/common/bots_common.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="154" column="42" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_performance/bots/common/bots_common.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_performance/bots/omp-tasks/fft/fft.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task_performance/bots/common/bots_main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="542" column="52" selection-start-line="542" selection-start-column="52" selection-end-line="542" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_performance/bots/common/bots_main.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#2006#2105#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Time Program</find>
+      <find>str_time_program</find>
+      <find>bots_get_params</find>
+      <find>bots_print_results</find>
+      <find>str_time</find>
+      <find>char str_time_program[15]</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/task_performance/bots/omp-tasks/fft/fft.h" />
+        <option value="$PROJECT_DIR$/task_performance/bots/common/bots_common.h" />
+        <option value="$PROJECT_DIR$/task_performance/bots/common/bots_common.c" />
+        <option value="$PROJECT_DIR$/task_performance/bots/common/bots_main.c" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -84,6 +303,13 @@
               <item name="hpxMP_performance" type="462c0819:PsiDirectoryNode" />
               <item name="task_performance" type="462c0819:PsiDirectoryNode" />
               <item name="bots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hpxMP_performance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hpxMP_performance" type="462c0819:PsiDirectoryNode" />
+              <item name="task_performance" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hpxMP_performance" type="b2602c69:ProjectViewProjectNode" />
@@ -135,12 +361,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539979873144</updated>
-      <workItem from="1539979874383" duration="358000" />
+      <workItem from="1539979874383" duration="12404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358000" />
+    <option name="totallyTimeSpent" value="12404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1173" extended-state="6" />
@@ -175,7 +401,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/task_performance/bots/omp-tasks/fft/fft.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585" />
+        <state relative-caret-position="375">
+          <caret line="88" column="3" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_performance/bots/common/bots_main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#2006#2105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_performance/bots/omp-tasks/fft/fft.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_performance/bots/common/bots_common.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_performance/bots/common/bots_common.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="154" column="42" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_performance/bots/common/bots_main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="542" column="52" selection-start-line="542" selection-start-column="52" selection-end-line="542" selection-end-column="52" />
+        </state>
       </provider>
     </entry>
   </component>
