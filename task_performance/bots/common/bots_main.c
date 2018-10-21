@@ -492,6 +492,9 @@ int main(int argc, char *argv[]) {
   for(int i =0; i < argc; i++)
       if(argv[i][0] != 'n')
           count_orig_param++;
+      else
+          break;
+
   bots_get_params(count_orig_param, argv);
   BOTS_APP_INIT;
   bots_set_info();
@@ -544,15 +547,21 @@ int main(int argc, char *argv[]) {
       fprintf(pFileerr, "name: %s,",argv[count_orig_param]);
       fprintf(pFileerr, "num_threads: %s\n",(s!=NULL)? s : "getenv returned NULL");
   }
-  if(argc==3){
+  if(count_orig_param != argc){
       if(strcmp(argv[count_orig_param],"no")==0){
-          pFile = fopen("../result/fft_result_openmp.txt", "a");
+          char filename[100] = "../result/fft_result_openmp_";
+          strcat(filename, argv[count_orig_param+1]);
+          strcat(filename, "th_run.txt");
+          pFile = fopen(filename, "a");
           fprintf(pFile, "%s,",(s!=NULL)? s : "getenv returned NULL");
           fprintf(pFile, "%s\n", str_time_program);
           fclose(pFile);
       }
       if(strcmp(argv[count_orig_param],"nh")==0){
-          pFile = fopen("../result/fft_result_hpxmp.txt", "a");
+          char filename[100] = "../result/fft_result_hpxmp_";
+          strcat(filename, argv[count_orig_param+1]);
+          strcat(filename, "th_run.txt");
+          pFile = fopen(filename, "a");
           fprintf(pFile, "%s,",(s!=NULL)? s : "getenv returned NULL");
           fprintf(pFile, "%s\n", str_time_program);
           fclose(pFile);
