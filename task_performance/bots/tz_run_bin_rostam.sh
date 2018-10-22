@@ -10,24 +10,24 @@ do
 		num_threads=1
 		case $opt in
 			"openmp")
-			while [ $num_threads -le 40 ]
+			while [ $num_threads -le 16 ]
 			do
-				OMP_NUM_THREADS=$num_threads LD_PRELOAD=/home/tzhang/openmp/build_release/runtime/src/libomp.so ./fft.clang.omp-tasks-tied no $num_run
+				OMP_NUM_THREADS=$num_threads LD_PRELOAD=/home/tzhang/openmp/build_release_clang/runtime/src/libomp.so ./fft.clang.omp-tasks-tied no $num_run
 				((num_threads++))
 			done
 			;;
 			"hpxmp")
-			while [ $num_threads -le 40 ]
+			while [ $num_threads -le 16 ]
 			do
-				OMP_NUM_THREADS=$num_threads LD_PRELOAD=/home/tzhang/hpxMP/build_release/libhpxmp.so ./fft.clang.omp-tasks-tied -c nh $num_run
+				OMP_NUM_THREADS=$num_threads LD_PRELOAD=/home/tzhang/hpxMP/build_release_clang/libhpxmp.so ./fft.clang.omp-tasks-tied -c nh $num_run
 				((num_threads++))
 			done
 			;;
 			"both")
-			while [ $num_threads -le 40 ]
+			while [ $num_threads -le 16 ]
 			do
-				OMP_NUM_THREADS=$num_threads LD_PRELOAD=/home/tzhang/openmp/build_release/runtime/src/libomp.so ./fft.clang.omp-tasks-tied -c no $num_run
-				OMP_NUM_THREADS=$num_threads LD_PRELOAD=/home/tzhang/hpxMP/build_release/libhpxmp.so ./fft.clang.omp-tasks-tied -c nh $num_run
+				OMP_NUM_THREADS=$num_threads LD_PRELOAD=/home/tzhang/openmp/build_release_clang/runtime/src/libomp.so ./fft.clang.omp-tasks-tied -c no $num_run
+				OMP_NUM_THREADS=$num_threads LD_PRELOAD=/home/tzhang/hpxMP/build_release_clang/libhpxmp.so ./fft.clang.omp-tasks-tied -c nh $num_run
 				((num_threads++))
 			done
 			;;
