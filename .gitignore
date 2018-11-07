@@ -1,1 +1,3 @@
 /task_performance/bots/bin/*
+/task_performance/bots/bin/config/make*
+*.o

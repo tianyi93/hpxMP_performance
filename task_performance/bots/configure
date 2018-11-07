@@ -31,6 +31,7 @@ while [ "$#" -gt 0  ]; do
 done
 
 GCC=`gcc -x c -c -fopenmp /dev/null &>/dev/null  && echo "yes"`
+CLANG=`clang -x c -c -fopenmp /dev/null &>/dev/null  && echo "yes"`
 MCC=`mcc --v &> /dev/null && echo "yes"`
 ICC=`icc -v &> /dev/null && echo "yes"`
 XLC=`xlc -qversion &> /dev/null && echo "yes"`
@@ -45,6 +46,11 @@ if [ -z "$COMPILER" ]; then
 	if [ "$GCC" = "yes" ]; then
 		let nc=nc+1
 		COMPILERS[nc]="gcc"
+	fi
+
+	if [ "$CLANG" = "yes" ]; then
+		let nc=nc+1
+		COMPILERS[nc]="clang"
 	fi
 
 	if [ "$MCC" = "yes" ]; then
@@ -105,6 +111,21 @@ if [ "$COMPILER" = "gcc" -a "$GCC" = "yes" ]; then
 	OMPC="$CC -fopenmp"
 	OMPLINK="$CC -fopenmp"
 	LABEL=gcc
+	[ "$debug" = "yes" ] && DEBUG=-g
+
+	OPT_FLAGS=-O3
+	CC_FLAGS=$DEBUG
+	OMPC_FLAGS=$DEBUG
+	CLINK_FLAGS=$DEBUG
+	OMPLINK_FLAGS=$DEBUG
+fi
+
+if [ "$COMPILER" = "clang" -a "$CLANG" = "yes" ]; then
+	CC=clang
+	CLINK=$CC
+	OMPC="$CC -fopenmp"
+	OMPLINK="$CC -fopenmp"
+	LABEL=clang
 	[ "$debug" = "yes" ] && DEBUG=-g
 
 	OPT_FLAGS=-O3
