@@ -1,11 +1,12 @@
 #!/bin/bash
 
-echo "This script is used to a single hpxMP OpenMP tinybench 11 times,which runtime should I use, hpxmp or openmp"
-read runtime
+echo "This script is used to a single hpxMP OpenMP tinybench 11 times,hpxmp and openmp"
 echo "which benchmark should I run?"
 read bench_name
 echo "where are you running this benchmark?"
 read machine_name
+echo "which compiler are you using ?"
+read compiler
 
 current_time="$(date +"%Y%m%d%H%M")"
 mkdir ../result_${bench_name}_${machine_name}_${current_time}
@@ -21,8 +22,10 @@ do
     	do
 	 	for thread in "${thr[@]}"
 	    	do
-			echo "${thread} threads, ${size} size, ${run}_th run"
-			echo "$(OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "${thread}, ${size}">> ${runtime}_${bench_name}_${run}th_run
+			echo "openmp ${thread} threads, ${size} size, ${run}_th run"
+			echo "$(LD_PRELOAD=/home/tzhang/openmp/build_${compiler}_${machine_name}_release/runtime/src/libomp.so OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "${thread}, ${size}">>openmp_${bench_name}_${run}th_run
+			echo "hpxmp ${thread} threads, ${size} size, ${run}_th run"
+			echo "$(LD_PRELOAD=/home/tzhang/hpxMP/build_${compiler}_${machine_name}_release/libhpxmp.so OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "${thread}, ${size}">>hpxmp_${bench_name}_${run}th_run
 	    	done
     	done
 done
