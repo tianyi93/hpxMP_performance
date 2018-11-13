@@ -19,3 +19,4 @@ Date:   Wed Oct 31 15:24:39 2018 -0500
     Clean up for release
     finish GCC support
 
+Note: openmp may not be built with marv_noht
