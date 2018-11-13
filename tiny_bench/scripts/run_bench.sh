@@ -18,8 +18,8 @@ num_run=(1 2 3 4 5 6 7 8 9 10 11)
 
 for run in  "${num_run[@]}"
 do
-	"mfc/s,num_threads,vector_size">>openmp_${bench_name}_${run}th_run.csv
-	"mfc/s,num_threads,vector_size">>hpxmp_${bench_name}_${run}th_run.csv
+	echo "mfc/s,num_threads,vector_size">>openmp_${bench_name}_${run}th_run.csv
+	echo "mfc/s,num_threads,vector_size">>hpxmp_${bench_name}_${run}th_run.csv
 	for size in "${vector_size[@]}"
     	do
 	 	for thread in "${thr[@]}"
