@@ -23,9 +23,9 @@ do
 	 	for thread in "${thr[@]}"
 	    	do
 			echo "openmp ${thread} threads, ${size} size, ${run}_th run"
-			echo "$(LD_PRELOAD=/home/tzhang/openmp/build_${compiler}_${machine_name}_release/runtime/src/libomp.so OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "${thread}, ${size}">>openmp_${bench_name}_${run}th_run
+			echo "$(LD_PRELOAD=/home/tzhang/pkgs_auto/openmp/build_${compiler}_${machine_name}_release/runtime/src/libomp.so OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "${thread}, ${size}">>openmp_${bench_name}_${run}th_run
 			echo "hpxmp ${thread} threads, ${size} size, ${run}_th run"
-			echo "$(LD_PRELOAD=/home/tzhang/hpxMP/build_${compiler}_${machine_name}_release/libhpxmp.so OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "${thread}, ${size}">>hpxmp_${bench_name}_${run}th_run
+			echo "$(LD_PRELOAD=/home/tzhang/pkgs_auto/hpxMP/build_${compiler}_${machine_name}_release/libhpxmp.so OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "${thread}, ${size}">>hpxmp_${bench_name}_${run}th_run
 	    	done
     	done
 done
