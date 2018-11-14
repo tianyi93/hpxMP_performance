@@ -20,11 +20,12 @@ for run in  "${num_run[@]}"
 do
 	echo "mfc/s,num_threads,vector_size">>openmp_${bench_name}_${run}th_run.csv
 	echo "mfc/s,num_threads,vector_size">>hpxmp_${bench_name}_${run}th_run.csv
-	for ((i=5;i<=1000;i+=5));
+	for ((size_k=50;size_k<=10000;size_k+=50));
     	do
+		size=$((${size_k}*1000))
 	 	for thread in "${thr[@]}"
 	    	do
-			echo "openmp ${thread} threads, ${i} size, ${run}_th run"
+			echo "openmp ${thread} threads, ${size} size, ${run}_th run"
 			echo "$(LD_PRELOAD=/home/tzhang/pkgs_auto/openmp/build_${compiler}_${machine_name}_release/runtime/src/libomp.so OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "${thread}, ${size}">>openmp_${bench_name}_${run}th_run.csv
 			echo "hpxmp ${thread} threads, ${size} size, ${run}_th run"
 			echo "$(LD_PRELOAD=/home/tzhang/pkgs_auto/hpxMP/build_${compiler}_${machine_name}_release/libhpxmp.so OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "${thread}, ${size}">>hpxmp_${bench_name}_${run}th_run.csv
