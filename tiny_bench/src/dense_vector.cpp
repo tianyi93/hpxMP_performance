@@ -10,7 +10,7 @@ int main(int argc, char* argv[]){
 		vector_size = atoi(argv[1]);
 	std::vector<float> a(vector_size,2.0f);
 	std::vector<float> b(vector_size,3.0f);
-	std::vector<float> c(2*vector_size,0);
+	std::vector<float> c(vector_size,0);
 
 	clock_t start = clock();
 #pragma omp parallel for
