@@ -1,8 +1,9 @@
 #include<iostream>
 #include<vector>
 #include<omp.h>
-#include <exception>
-#include <ctime>
+#include<exception>
+#include<ctime>
+#include<chrono>
 
 int main(int argc, char* argv[]){
 	int64_t vector_size = 0;
@@ -11,14 +12,19 @@ int main(int argc, char* argv[]){
 	std::vector<float> a(vector_size,2.0f);
 	std::vector<float> b(vector_size,3.0f);
 	std::vector<float> c(vector_size,0);
-
-	clock_t start = clock();
+	
+	auto start = std::chrono::system_clock::now();
 #pragma omp parallel for
 	for (int64_t i = 0; i < vector_size; i++){
 		c[i] = a[i]+b[i];
 	}
-	clock_t end = clock();
-	double elapsed_secs = double(end-start)/CLOCKS_PER_SEC;
+	auto end = std::chrono::system_clock::now();
+
+	std::chrono::duration<double> elapsed_seconds = end-start;
+	double elapsed_secs = elapsed_seconds.count();
+
+	//std::cout<<elapsed_secs<<std::endl;
+	
 	float operations = vector_size*1/elapsed_secs/1000000;
 	std::cout<<operations<<","<<std::endl;
 	for (int64_t i = 0; i < vector_size; i++){
