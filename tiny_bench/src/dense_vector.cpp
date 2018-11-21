@@ -26,10 +26,14 @@ int main(int argc, char* argv[]){
 	//std::cout<<elapsed_secs<<std::endl;
 	
 	float operations = vector_size*1/elapsed_secs/1000000;
-	std::cout<<","<<operations<<",\""<<std::endl;
+
 	for (int64_t i = 0; i < vector_size; i++){
-		if(c[i] != 5)
+		if(c[i] != 5){
+		    std::cout<<",WRONG ANSWER,"<<std::endl;
 			throw std::invalid_argument("wrong result");
+		}
 	}
+
+	std::cout<<","<<operations<<",\""<<std::endl;
 	return 0;
 }

@@ -1,0 +1,24 @@
+boost/1.68.0-clang6.0.1-release
+tcmalloc
+commit 2fec2f2456833ed0356c65213d1312d7ca3c4c7d
+Merge: 49849da ed002a5
+Author: Mikael Simberg <mikael.simberg@iki.fi>
+Date:   Sat Nov 10 22:18:06 2018 +0100
+
+    Merge pull request #3541 from chinz07/fixing_3475_v3
+    
+    Fixing the build system of the MPI parcelport
+
+commit 2ad578414e6db43c95eb868062dbc97a07416a86
+Merge: e71cad2 35cdf1b
+Author: Tianyi Zhang <33507397+tianyi93@users.noreply.github.com>
+Date:   Wed Oct 31 15:24:39 2018 -0500
+
+    Merge pull request #42 from STEllAR-GROUP/clean_up_for_release
+    
+    Clean up for release
+    finish GCC support
+This is using temp branch on hpxMP
+This is running with openmp come with the compiler
+Timing has been changed to chrono clock
+smaller size(only 10 different size)
