@@ -20,4 +20,5 @@ Date:   Wed Oct 31 15:24:39 2018 -0500
     finish GCC support
 
 This is running with openmp come with the compiler
-Timing has been changed to c timing clock, not really correct
+Timing has been changed to chrono clock
+smaller size(only 10 different size)

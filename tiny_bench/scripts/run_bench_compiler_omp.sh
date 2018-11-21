@@ -20,7 +20,7 @@ for run in  "${num_run[@]}"
 do
 	echo "mfc/s,num_threads,vector_size">>openmp_${bench_name}_${run}th_run.csv
 	echo "mfc/s,num_threads,vector_size">>hpxmp_${bench_name}_${run}th_run.csv
-	for ((size_k=200;size_k<=10000;size_k+=200));
+	for ((size_k=1000;size_k<=10000;size_k+=1000));
     	do
 		size=$((${size_k}*1000))
 	 	for thread in "${thr[@]}"
