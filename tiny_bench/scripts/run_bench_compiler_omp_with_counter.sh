@@ -26,7 +26,7 @@ do
 	 	for thread in "${thr[@]}"
 	    	do
 			echo "openmp ${thread} threads, ${size} size, ${run}_th run"
-			echo "${thread}, ${size}" "$(OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})">>openmp_${bench_name}_${run}th_run.csv
+			echo "${thread}, ${size}" "$(OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "\"">>openmp_${bench_name}_${run}th_run.csv
 			echo "hpxmp ${thread} threads, ${size} size, ${run}_th run"
 			echo "${thread}, ${size}" "$(OMP_HPX_ARGS=--hpx:print-counter=/threads{locality#*/total}/idle-rate LD_PRELOAD=/home/tzhang/pkgs_auto/hpxMP/build_${compiler}_${machine_name}_release/libhpxmp.so OMP_NUM_THREADS=${thread} ../build/${bench_name} ${size})" "\"">>hpxmp_${bench_name}_${run}th_run.csv
 	    	done
