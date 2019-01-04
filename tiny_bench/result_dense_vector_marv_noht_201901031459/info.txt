@@ -1,0 +1,26 @@
+boost/1.68.0-clang6.0.1-release
+tcmalloc
+
+commit de3f4bbe628b9c5b065fd9da6fb943b16a797345
+Merge: b4b0907 6389d52
+Author: Hartmut Kaiser <hartmut.kaiser@gmail.com>
+Date:   Wed Jan 2 11:05:18 2019 -0600
+
+    Merge pull request #3591 from diehlpk/fixarm7
+    
+    Fix compilation error on arm7 architecture. Compiles and runs on Fedora 29 on Pi 3.
+
+commit 2ad578414e6db43c95eb868062dbc97a07416a86
+Merge: e71cad2 35cdf1b
+Author: Tianyi Zhang <33507397+tianyi93@users.noreply.github.com>
+Date:   Wed Oct 31 15:24:39 2018 -0500
+
+    Merge pull request #42 from STEllAR-GROUP/clean_up_for_release
+    
+    Clean up for release
+    finish GCC support
+
+This is using temp branch on hpxMP
+This is running with openmp come with the compiler
+Timing has been changed to chrono clock
+smaller size(only 10 different size)
